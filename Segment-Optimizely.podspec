@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Optimizely"
   s.version          = "1.0.0"
-  s.summary          = "Mixpanel Integration for Segment's analytics-ios library."
+  s.summary          = "Optimizely Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
                        Analytics for iOS provides a single API that lets you
