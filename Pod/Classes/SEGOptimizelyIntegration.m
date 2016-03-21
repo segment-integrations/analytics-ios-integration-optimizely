@@ -35,7 +35,7 @@
 
 - (void)experimentDidGetViewed:(NSNotification *)notification
 {
-    NSString *experimentName = notification.name;
+    NSString *experimentName = notification.userInfo[@"experiment_description"];
     for (OptimizelyExperimentData *data in [Optimizely sharedInstance].visitedExperiments) {
         if ([data.experimentName isEqualToString:experimentName]) {
             [[SEGAnalytics sharedAnalytics] track:@"Experiment Viewed"
