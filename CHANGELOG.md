@@ -1,9 +1,13 @@
 Change Log
 ==========
 
+Version 1.1.0 *(5th May, 2016)*
+-------------------------------------------
+Update Optimizely SDK to 1.4.2.
+
 Version 1.0.1 *(28th March, 2016)*
 -------------------------------------------
-Changed the property experimentName is set to from the NSNotification object...
+Changed the property experimentName is set to from the NSNotification object.
 
 Version 1.0.0 *(22nd December, 2015)*
 -------------------------------------------
