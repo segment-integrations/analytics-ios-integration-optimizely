@@ -1,10 +1,10 @@
 PODS:
-  - Analytics (3.0.3)
+  - Analytics (3.0.7)
   - Expecta (1.0.5)
-  - Optimizely-iOS-SDK (1.2.2)
-  - Segment-Optimizely (1.0.0):
+  - Optimizely-iOS-SDK (1.4.2)
+  - Segment-Optimizely (1.0.1):
     - Analytics (~> 3.0.3)
-    - Optimizely-iOS-SDK (~> 1.2.2)
+    - Optimizely-iOS-SDK (~> 1.4.2)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -14,13 +14,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Segment-Optimizely:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Analytics: 7a5f10f6a2dd313d650f5db2642d9f967da3c693
+  Analytics: b342fb4f43fa4f97ca6f4358b44d3295217ba294
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Optimizely-iOS-SDK: b6f231f0fc6259b732f10bce02bb667805c2f615
-  Segment-Optimizely: 06c5695bd6f4b20ce0434f5eb485dee61c07616c
+  Optimizely-iOS-SDK: 6d23c5cde187f894430d134caa15f56874754cca
+  Segment-Optimizely: e599985a0d192d5a55c4532fbfdd452608e351b0
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0
