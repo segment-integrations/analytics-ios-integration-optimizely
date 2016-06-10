@@ -29,8 +29,11 @@
 
 - (void)identify:(SEGIdentifyPayload *)payload
 {
-    [[Optimizely sharedInstance] setUserId:payload.userId];
-    SEGLog(@"[Optimizely sharedInstance].userId = %@;", payload.userId);
+    if(payload.userId){
+        [Optimizely sharedInstance].universalUserId = payload.userId;
+        SEGLog(@"[Optimizely sharedInstance].universalUserId = %@;", payload.userId);
+    };
+    
 }
 
 - (void)experimentDidGetViewed:(NSNotification *)notification

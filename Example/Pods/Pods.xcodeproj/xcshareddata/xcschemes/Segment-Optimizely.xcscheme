@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '09E0D63C4A1C0AE851D5B3E3'
+               BlueprintIdentifier = 'A2B146C1E9EE0386AE76BFC4'
                BlueprintName = 'Segment-Optimizely'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSegment-Optimizely.a'>
