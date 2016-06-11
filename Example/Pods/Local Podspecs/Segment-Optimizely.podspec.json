@@ -22,7 +22,7 @@
   "source_files": "Pod/Classes/**/*",
   "dependencies": {
     "Analytics": [
-      "~> 3.0.3"
+      "~> 3.0"
     ],
     "Optimizely-iOS-SDK": [
       "~> 1.4.2"
