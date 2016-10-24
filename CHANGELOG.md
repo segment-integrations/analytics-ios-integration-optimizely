@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+Version 1.1.1 *(24th October, 2016)*
+-------------------------------------------
+Relaxes Analytics dependency 
+
 Version 1.1.0 *(5th May, 2016)*
 -------------------------------------------
 Update Optimizely SDK to 1.4.2.
