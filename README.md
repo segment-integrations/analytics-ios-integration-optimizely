@@ -28,7 +28,7 @@ And add the following lines:
 NSString *const SEGMENT_WRITE_KEY = @" ... ";
 SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:SEGMENT_WRITE_KEY];
 
-[config use:[SEGOptimizelyIntegrationFactory instance]];
+[config use:[SEGOptimizelyIntegrationFactory instanceWithToken:apiKey launchOptions:launchOptions]];
 
 [SEGAnalytics setupWithConfiguration:config];
 
