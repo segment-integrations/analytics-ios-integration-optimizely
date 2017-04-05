@@ -8,12 +8,32 @@ Optimizely integration for analytics-ios.
 
 ## Installation
 
-Analytics is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your `Podfile`:
+To install the Segment-Optimizely integration, simply add this line to your [CocoaPods](http://cocoapods.org) `Podfile`:
 
 ```ruby
 pod "Segment-Optimizely"
 ```
+
+## Usage
+
+After adding the dependency, you must register the integration with our SDK.  To do this, import the Optimizely integration in your `AppDelegate`:
+
+```
+#import <Segment-Optimizely/SEGOptimizelyIntegrationFactory.h>
+```
+
+And add the following lines:
+
+```
+NSString *const SEGMENT_WRITE_KEY = @" ... ";
+SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:SEGMENT_WRITE_KEY];
+
+[config use:[SEGOptimizelyIntegrationFactory instance]];
+
+[SEGAnalytics setupWithConfiguration:config];
+
+```
+
 
 ## License
 
