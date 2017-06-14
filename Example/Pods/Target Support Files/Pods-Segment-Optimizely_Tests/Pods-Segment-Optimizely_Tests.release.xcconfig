@@ -1,6 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Optimizely-iOS-SDK" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Analytics" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/Optimizely-iOS-SDK" "${PODS_ROOT}/Headers/Public/Segment-Optimizely" "${PODS_ROOT}/Headers/Public/Specta"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Analytics" -isystem "${PODS_ROOT}/Headers/Public/Expecta" -isystem "${PODS_ROOT}/Headers/Public/Optimizely-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Public/Segment-Optimizely" -isystem "${PODS_ROOT}/Headers/Public/Specta"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Analytics" -l"Expecta" -l"Segment-Optimizely" -l"Specta" -l"icucore" -l"sqlite3" -framework "AudioToolbox" -framework "CFNetwork" -framework "Foundation" -framework "MobileCoreServices" -framework "Optimizely" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "XCTest"
-PODS_ROOT = ${SRCROOT}/Pods
