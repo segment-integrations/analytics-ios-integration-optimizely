@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+Version 1.1.2 *(14th June, 2017)*
+-------------------------------------------
+Relaxes Optimizely dependency 
+
 Version 1.1.1 *(24th October, 2016)*
 -------------------------------------------
 Relaxes Analytics dependency 
