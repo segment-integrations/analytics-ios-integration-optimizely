@@ -1,5 +1,6 @@
 # Analytics
 
+[![CircleCI](https://circleci.com/gh/segment-integrations/analytics-ios-integration-optimizely.svg?style=svg)](https://circleci.com/gh/segment-integrations/analytics-ios-integration-optimizely)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Optimizely.svg?style=flat)](http://cocoapods.org/pods/Segment-Optimizely)
 [![License](https://img.shields.io/cocoapods/l/Segment-Optimizely.svg?style=flat)](http://cocoapods.org/pods/Segment-Optimizely)
 
