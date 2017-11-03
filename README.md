@@ -1,6 +1,6 @@
 # Analytics
 
-[![CI Status](http://img.shields.io/travis/segment-integrations/analytics-ios-integration-optimizely.svg?style=flat)](https://travis-ci.org/segment-integrations/analytics-ios-integration-optimizely)
+[![CircleCI](https://circleci.com/gh/segment-integrations/analytics-ios-integration-optimizely.svg?style=svg)](https://circleci.com/gh/segment-integrations/analytics-ios-integration-optimizely)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Optimizely.svg?style=flat)](http://cocoapods.org/pods/Segment-Optimizely)
 [![License](https://img.shields.io/cocoapods/l/Segment-Optimizely.svg?style=flat)](http://cocoapods.org/pods/Segment-Optimizely)
 
