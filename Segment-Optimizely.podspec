@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Optimizely"
-  s.version          = "1.1.2"
+  s.version          = "1.2.0"
   s.summary          = "Optimizely Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
