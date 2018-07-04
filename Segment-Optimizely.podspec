@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
+  s.static_framework = true
   s.source_files = 'Pod/Classes/**/*'
 
   s.dependency 'Analytics', '~> 3.0'
