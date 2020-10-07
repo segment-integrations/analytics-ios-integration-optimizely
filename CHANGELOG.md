@@ -1,5 +1,8 @@
 Change Log
 ==========
+Version 1.2.1 *(7th October, 2020)*
+-------------------------------------------
+* Update SEGAnalytics imports to support new namespacing introduced in v4.x
 
 Version 1.2.0 *(4th July, 2018)*
 -------------------------------------------
