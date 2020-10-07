@@ -1,7 +1,12 @@
 #import "SEGOptimizelyIntegration.h"
+#if defined(__has_include) && __has_include(<Analytics/SEGAnalytics.h>)
 #import <Analytics/SEGAnalyticsUtils.h>
-#import <Optimizely/Optimizely.h>
 #import <Analytics/SEGAnalytics.h>
+#else
+#import <Segment/SEGAnalyticsUtils.h>
+#import <Segment/SEGAnalytics.h>
+#endif
+#import <Optimizely/Optimizely.h>
 
 @implementation SEGOptimizelyIntegration
 
